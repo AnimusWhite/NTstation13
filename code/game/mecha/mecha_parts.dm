@@ -494,3 +494,14 @@
 		icon_state = "mainboard"
 
 
+////////// Combat Ripley
+/*
+/obj/item/mecha_parts/chassis/Combat Ripley
+	name = "Combat Ripley chassis"
+
+	New()
+		..()
+		construct = new /datum/construction/mecha/combat_ripley_chassis(src)
+*/
+
+
