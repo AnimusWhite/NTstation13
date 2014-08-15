@@ -12,4 +12,3 @@ Smet19 = Game Master
 relativist = Game Master
 ZLOFENIX = Game Master
 account12 = Game Master
-HunterMaksim = Game Master
