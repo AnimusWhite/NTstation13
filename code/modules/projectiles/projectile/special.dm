@@ -47,6 +47,23 @@
 	temperature = 400
 	trace_residue = "Unfocused charring patterns."
 
+/obj/item/projectile/mecha/temp
+	name = "freeze beam"
+	icon_state = "ice_2"
+	damage = 0
+	damage_type = BURN
+	nodamage = 1
+	flag = "energy"
+	trace_residue = null
+	var/temperature = 50
+
+
+	on_hit(var/atom/target, var/blocked = 0)//These two could likely check temp protection on the mob
+		if(istype(target, /mob/living))
+			var/mob/M = target
+			M.bodytemperature = temperature
+		return 1
+
 /obj/item/projectile/meteor
 	name = "meteor"
 	icon = 'icons/obj/meteor.dmi'

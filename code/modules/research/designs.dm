@@ -787,6 +787,16 @@ datum/design/mech_laser_heavy
 	build_path = /obj/item/mecha_parts/mecha_equipment/weapon/energy/laser/heavy
 	category = "Exosuit Equipment"
 
+datum/design/mech_temperature
+	name = "Exosuit Weapon Design (Freeze Gun)"
+	desc = "Allows for the construction of Freeze Gun."
+	id = "mech_temperature"
+	build_type = MECHFAB
+	req_tech = list("combat" = 4, "magnets" = 4)
+	build_path = /obj/item/mecha_parts/mecha_equipment/weapon/energy/temperature
+	category = "Exosuit Equipment"
+
+
 datum/design/mech_grenade_launcher
 	name = "Exosuit Weapon Design (SGL-6 Grenade Launcher)"
 	desc = "Allows for the construction of SGL-6 Grenade Launcher."
