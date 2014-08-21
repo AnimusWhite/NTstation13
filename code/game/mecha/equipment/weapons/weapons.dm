@@ -59,6 +59,16 @@
 	projectile = /obj/item/projectile/beam/heavylaser
 	fire_sound = 'sound/weapons/lasercannonfire.ogg'
 
+/obj/item/mecha_parts/mecha_equipment/weapon/energy/temperature
+	equip_cooldown = 15
+	name = "Freeze Gun"
+	icon_state = "freezegun"
+	desc = "A gun that freezes targets."
+	energy_drain = 70
+	projectile = /obj/item/projectile/mecha/temp
+	fire_sound = 'sound/weapons/pulse3.ogg'
+
+
 /obj/item/mecha_parts/mecha_equipment/weapon/energy/ion
 	equip_cooldown = 20
 	name = "\improper MKIV ion heavy cannon"
